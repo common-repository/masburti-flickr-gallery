@@ -1,0 +1,95 @@
+/**
+* Style for plugin display
+ */
+
+table.masburti_photosets, table.masburti_photoset_photos  {
+	table-layout: fixed;
+	width: 100%;
+	float: left;
+}
+
+tr.masburti_photoset_thumb_row   {
+	margin-bottom: 0;
+}
+
+tr.masburti_photoset_label_row   {
+	margin-bottom: 10px;
+}
+
+table.masburti_photosets td {
+	border: none;
+}
+
+table.masburti_photosets td.masburti_photoset_image    {
+	padding: 0 10px;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+table.masburti_photosets td.masburti_photoset_image img    {
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	margin: 0!important;
+	float: left;
+	border-radius: 15px 15px 0 0;
+}
+
+table.masburti_photosets td.masburti_photoset_link  {
+	padding: 0 10px 20px;
+	cursor: pointer;
+}
+
+table.masburti_photosets td.masburti_photoset_link h4 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #FFF;
+	float: left;
+	border-radius: 0 0 15px 15px;
+	padding: 15px 0;
+	margin: -30px 0 0;
+}
+
+div.masburti_photoset_display   {
+	width: 100%;
+	display: none;
+}
+
+div.masburti_photoset_display.show  {
+	display: block;
+}
+
+div.masburti_photoset_display h2.masburti_photoset_title, div.masburti_photoset_display div.masburti_photoset_loading   {
+	text-align: center;
+	display: none;
+}
+
+div.masburti_photoset_display p.masburti_photoset_back  {
+	text-align: center;
+	color: #008;
+	cursor: pointer;
+	display: none;
+}
+
+div.masburti_photoset_display p.masburti_photoset_back:hover    {
+	text-decoration: underline;
+}
+
+table.masburti_photoset_photos tr.masburti_thumbnails_row  {
+	padding: 0;
+	margin: 0;
+}
+
+table.masburti_photoset_photos tr.masburti_thumbnails_row td.masburti_photoset_photo {
+	border: none;
+}
+
+table.masburti_photoset_photos tr.masburti_thumbnails_row td.masburti_photoset_photo img {
+	width: 100%;
+	margin-bottom: 0!important;
+	border-radius: 5px;
+	object-fit: cover;
+	overflow: hidden;
+}
